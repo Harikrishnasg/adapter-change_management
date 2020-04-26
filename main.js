@@ -97,7 +97,7 @@ function get(serviceNowTable, callback) {
 }
 
 /**
- * @function get
+ * @function post
  * @description Call the ServiceNow POST API.
  *
  * @param {string} serviceNowTable - The table target of the ServiceNow table API.
@@ -176,3 +176,5 @@ function main() {
     console.log(`\nResponse returned from POST request:\n${JSON.stringify(data)}`)
   });
 }
+
+main();
